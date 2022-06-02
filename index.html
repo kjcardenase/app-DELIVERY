@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Delivery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header contenedor">
+        <div class="header__logo">
+            <img src="build/img/logo.svg" alt="logo">
+        </div>
+        <nav class="navegacion">
+            <a href="#" class="navegacion__link">Iniciar sesión</a>
+            <a href="#" class="navegacion__link">Crear cuenta</a>
+            <a href="#" class="navegacion__link navegacion__link--registrar">Registrar Restaurante</a>
+        </nav>
+    </header>
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2 class="formulario__heading">Encuentra y pide comida de tu Restaurante favorito</h2>
+                <form class="formulario__buscar">
+                    <div class="formulario__campo">
+                        <label form="restaurant" class="formulario__label">
+                            Restaurante
+                        </label>
+                        <input id="restaurant" class="formulario__input" placeholder="Comida Rápida, Villa del Rosario">
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label form="platillo" class="formulario__label">
+                            Plato
+                        </label>
+                        <input id="platillo" class="formulario__input" placeholder="Pizza, Picadas, Hamburgesa">
+                    </div>
+                    <input type="submit" class="formulario__submit" value="Buscar">
+
+                </form>
+            </div>
+
+            <div class="formulario__imagen-contenedor">
+                <img class="formulario__imagen" src="build/img/dibujo_repartidor.svg" alt="imagen repartidor">
+            </div>
+        </div>
+    </section>
+    <section class="pasos">
+        <img class="pasos__wave" src="build/img/wave.svg" alt="imagen wave">
+        <div class="pasos__contenido">
+            <h2 class="pasos__heading">¿Cómo funicona? <span class="pasos__heading--descripcion">tan fácil como 1,2 y
+                    3.</span></h2>
+            <div class="pasos__grid contenedor">
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_1.png" alt="imagen paso app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_2.png" alt="imagen paso app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_3.png" alt="imagen paso app">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
