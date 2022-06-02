@@ -1,13 +1,15 @@
-@use 'variables' as v; 
+@use 'variables' as v;
 
 html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
-  
+
 body {
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
@@ -32,8 +34,10 @@ img {
     display: block;
 }
 
-h1, h2, h3 {
-    margin: 0 0 v.$separacion  0 ;
+h1,
+h2,
+h3 {
+    margin: 0 0 v.$separacion 0;
 }
 h1 {
     font-size: 4rem;
